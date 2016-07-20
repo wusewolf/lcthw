@@ -1,3 +1,5 @@
 CFLAGS=-Wall -g
 Program = ex3
-$(Program): $(Program).o
+$(Program):
+clean:
+	rm -f *.o $(Program)
